@@ -18,8 +18,8 @@
 
 Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une forte culture de la **sécurité des infrastructures** et de l'**automatisation**. Mon objectif : décrocher mes premières missions en tant que **Freelance DevOps / Cloud Engineer**.
 
-- 🖥️ Solide background **Windows Server, Linux (RHEL / Debian) & réseau** (Cisco, Fortinet)
-- ⚙️ Automatisation d'infrastructures avec **Ansible** — goodbye manual config
+- 🖥️ Solide background **Windows Server, Linux (RHEL / Debian) & réseau** (Stormshield, Cisco, Fortinet)
+- ⚙️ Automatisation d'infrastructures avec **Ansible**
 - 🔐 Durcissement système selon les référentiels **CIS Benchmarks & ANSSI**
 - ☁️ En transition active vers **AWS, Terraform & les pratiques DevOps** modernes
 - 🎯 Objectif : acquérir mes premières missions freelance et évoluer vers **DevOps / Cloud Engineer**
@@ -30,7 +30,7 @@ Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une
 
 ### ☁️ Cloud & Infrastructure
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,gcp,terraform,ansible" />
+  <img src="https://skillicons.dev/icons?i=aws,gcp,azure,openstack,terraform,ansible" />
 </p>
 
 ### 💻 Système & Réseau
