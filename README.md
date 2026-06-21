@@ -115,6 +115,30 @@ Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une
   <img src="https://img.shields.io/badge/Route53-7F00FF?style=flat-square&logo=amazondynamodb&logoColor=white" />
   <img src="https://img.shields.io/badge/IAM-FF0000?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
+
+### ☁️ IaC for a production-grade GitOps platform on AWS EKS.
+> Plateforme GitOps production-grade déployée sur Amazon EKS avec pipeline CI/CD entièrement automatisée
+- Infrastructure provisionnée en IaC avec Terraform (VPC, EKS, ECR, IAM, S3 backend)
+- Authentification GitHub Actions sans clé statique via OIDC — build et push ECR déclenchés à chaque push
+- GitOps avec ArgoCD — déploiement automatique via Kustomize overlays (dev/prod)
+- ArgoCD Image Updater détecte les nouveaux tags semver sur ECR et commit automatiquement dans le repo K8s
+- Authentification IAM des pods via EKS Pod Identity (LBC, Image Updater)
+![Screenshot](eks-gitops-diagram.svg)
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=terraform,github,githubactions,kubernetes" />
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=aws" />
+  <img src="https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/IAM-FF0000?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/S3-008000?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/VPC-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLB-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white" />
+</p>
+
 ---
 
 ## 📜 Certifications
