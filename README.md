@@ -66,17 +66,27 @@ Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une
 
 > ⚠️ GitHub me permet de mettre en avant mes projets terminés, tandis que mes projets en cours ou à diffusion restreinte sont sur mon <img src="https://img.shields.io/badge/Gitlab-181717?style=flat-square&logo=gitlab" />
 
-### 🔔 E-commerce Brand Watcher &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--devops%2Fecom--brand--watcher-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-devops/ecom-brand-watcher)
-> Outil **serverless** de surveillance de catalogue e-commerce — détecte l'apparition de nouveaux articles sur une page cible et déclenche une notification email instantanée. Entièrement piloté par événements, zéro serveur à gérer.
-![Screenshot](infra-brand-watcher.svg)
- 
-<p>
-  <img src="https://skillicons.dev/icons?i=terraform,python,aws" />
+### ☁️ IaC for a production-grade GitOps platform on AWS EKS &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--devops%2Faws--eks--gitops-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-devops/aws-eks-gitops)
+> Plateforme GitOps production-grade déployée sur Amazon EKS avec pipeline CI/CD entièrement automatisée
+- Infrastructure provisionnée en IaC avec Terraform (VPC, EKS, ECR, IAM, S3 backend)
+- Authentification GitHub Actions sans clé statique via OIDC — build et push ECR déclenchés à chaque push
+- GitOps avec ArgoCD — déploiement automatique via Kustomize overlays (dev/prod)
+- ArgoCD Image Updater détecte les nouveaux tags semver sur ECR et commit automatiquement dans le repo K8s
+- Authentification IAM des pods via EKS Pod Identity (LBC, Image Updater)
+![Screenshot](schema-infra.png)
 
-  <img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
-  <img src="https://img.shields.io/badge/EventBridge-FF007F?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/SNS-FF007F?style=flat-square&logo=amazonaws&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=terraform,github,githubactions,kubernetes" />
+  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=aws" />
+  <img src="https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/IAM-FF0000?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/S3-008000?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/VPC-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/NLB-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
 ### 🔒 Infra complète OpenStack
@@ -116,27 +126,17 @@ Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une
   <img src="https://img.shields.io/badge/IAM-FF0000?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
-### ☁️ IaC for a production-grade GitOps platform on AWS EKS.
-> Plateforme GitOps production-grade déployée sur Amazon EKS avec pipeline CI/CD entièrement automatisée
-- Infrastructure provisionnée en IaC avec Terraform (VPC, EKS, ECR, IAM, S3 backend)
-- Authentification GitHub Actions sans clé statique via OIDC — build et push ECR déclenchés à chaque push
-- GitOps avec ArgoCD — déploiement automatique via Kustomize overlays (dev/prod)
-- ArgoCD Image Updater détecte les nouveaux tags semver sur ECR et commit automatiquement dans le repo K8s
-- Authentification IAM des pods via EKS Pod Identity (LBC, Image Updater)
-![Screenshot](eks-gitops-diagram.svg)
-
+### 🔔 E-commerce Brand Watcher &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--devops%2Fecom--brand--watcher-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-devops/ecom-brand-watcher)
+> Outil **serverless** de surveillance de catalogue e-commerce — détecte l'apparition de nouveaux articles sur une page cible et déclenche une notification email instantanée. Entièrement piloté par événements, zéro serveur à gérer.
+![Screenshot](infra-brand-watcher.svg)
+ 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=terraform,github,githubactions,kubernetes" />
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kustomize-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-  <img src="https://skillicons.dev/icons?i=aws" />
-  <img src="https://img.shields.io/badge/EKS-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/IAM-FF0000?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/S3-008000?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/VPC-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/NLB-8C4FFF?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=terraform,python,aws" />
+
+  <img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
+  <img src="https://img.shields.io/badge/EventBridge-FF007F?style=flat-square&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/SNS-FF007F?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
 ---
