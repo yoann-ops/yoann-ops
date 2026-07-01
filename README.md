@@ -66,7 +66,7 @@ Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une
 
 > ⚠️ GitHub me permet de mettre en avant mes projets terminés, tandis que mes projets en cours ou à diffusion restreinte sont sur mon <img src="https://img.shields.io/badge/Gitlab-181717?style=flat-square&logo=gitlab" />
 
-### ☁️ IaC for a production-grade GitOps platform on AWS EKS &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--devops%2Faws--eks--gitops-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-devops/aws-eks-gitops)
+### ☁️ IaC for a production-grade GitOps platform on AWS EKS &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--ops%2Faws--eks--gitops-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-ops/aws-eks-gitops)
 > Plateforme GitOps production-grade déployée sur Amazon EKS avec pipeline CI/CD entièrement automatisée
 - Infrastructure provisionnée en IaC avec Terraform (VPC, EKS, ECR, IAM, S3 backend)
 - Authentification GitHub Actions sans clé statique via OIDC — build et push ECR déclenchés à chaque push
@@ -126,7 +126,7 @@ Ingénieur système & réseau en transition vers le **DevOps & Cloud**, avec une
   <img src="https://img.shields.io/badge/IAM-FF0000?style=flat-square&logo=amazonaws&logoColor=white" />
 </p>
 
-### 🔔 E-commerce Brand Watcher &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--devops%2Fecom--brand--watcher-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-devops/ecom-brand-watcher)
+### 🔔 E-commerce Brand Watcher &nbsp;[![GitHub](https://img.shields.io/badge/GitHub-yoann--ops%2Fecom--brand--watcher-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yoann-ops/ecom-brand-watcher)
 > Outil **serverless** de surveillance de catalogue e-commerce — détecte l'apparition de nouveaux articles sur une page cible et déclenche une notification email instantanée. Entièrement piloté par événements, zéro serveur à gérer.
 ![Screenshot](infra-brand-watcher.svg)
  
